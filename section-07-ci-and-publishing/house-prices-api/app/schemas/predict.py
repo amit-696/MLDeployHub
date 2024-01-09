@@ -5,16 +5,16 @@ from regression_model.processing.validation import HouseDataInputSchema
 
 
 class PredictionResults(BaseModel):
-    errors: Optional[Any]
+    errors: Optional[Any] = None
     version: str
-    predictions: Optional[List[float]]
+    predictions: Optional[List[float]] = None
 
 
 class MultipleHouseDataInputs(BaseModel):
     inputs: List[HouseDataInputSchema]
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "inputs": [
                     {
