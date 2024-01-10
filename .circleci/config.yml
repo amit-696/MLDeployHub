@@ -57,7 +57,6 @@ jobs:
           command: |
             cd section-07-ci-and-publishing/house-prices-api
             railway link
-            railway ${{RAILWAY_PROJECT_NAME}}
             railway up --detach
 
   section_07_test_and_upload_regression_model:
