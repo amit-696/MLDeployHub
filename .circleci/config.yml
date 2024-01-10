@@ -52,6 +52,7 @@ jobs:
           node-version: '16.13'
       - run: node --version
       - run: npm i -g @railway/cli
+      - run: echo "RAILWAY_SERVICE_NAME=$RAILWAY_SERVICE_NAME"
       - run:
           name: Deploy to Railway App (You must set RAILWAY_TOKEN env var)
           command: |
