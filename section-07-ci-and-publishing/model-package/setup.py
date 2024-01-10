@@ -6,12 +6,12 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'tid-regression-model'
+NAME = 'mlops-tid-regression-model'
 DESCRIPTION = "Example regression model package from Train In Data."
-URL = "https://github.com/trainindata/testing-and-monitoring-ml-deployments"
-EMAIL = "christopher.samiullah@protonmail.com"
-AUTHOR = "ChristopherGS"
-REQUIRES_PYTHON = ">=3.7.0"
+URL = ""
+EMAIL = "amitgupta2533@gmail.com"
+AUTHOR = "Amit Gupta"
+REQUIRES_PYTHON = ">=3.9.0"
 
 
 # The rest you shouldn't have to touch too much :)
