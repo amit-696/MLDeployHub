@@ -1,2 +1,2 @@
 # MLDeployHub
-Deployment of my first Production grade ml app.
+Deployment of my first Production grade ml app
