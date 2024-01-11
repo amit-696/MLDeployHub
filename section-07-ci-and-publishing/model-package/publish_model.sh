@@ -2,9 +2,6 @@
 
 # Building packages and uploading them to a Gemfury repository
 
-set -e
-set -x
-
 echo $GEMFURY_PUSH_URL
 GEMFURY_URL=$GEMFURY_PUSH_URL
 
